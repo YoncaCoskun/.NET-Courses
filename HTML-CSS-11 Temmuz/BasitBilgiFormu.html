@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet1.css"/>
+
+    <style type="text/css">
+        td {
+            font-family:'Times New Roman';
+        }
+        
+        /*Internal CSS*/
+         h1 {
+             background-color: #0000cd;
+         }
+        /*Aynı seviyede en son eklenen geçerlidir*/
+        h1 {
+            background-color: #00ced1;
+        }
+
+        /*---------------------------------------*/
+
+        h1.csd {
+            /*h1 elemanı için sınıf bildirimi:*/
+            background-color: #800000;
+            color: white;
+        }
+        .csd {
+            /*Genel sınıf bildirimi*/
+            background-color: black;
+        }
+    /*--------------------------------------*/
+
+    </style>
+</head>
+
+<body>
+<form>
+    <h1 style="background-color: #66cdaa;"> C ve Sistem Programcıları Derneği</h1> <!--Inline css-->
+    <h1 class="csd">Yonca Coskun</h1>
+    <h1>Kişi Bilgi Formu </h1> <!-- burada background color internal css ten alır-->
+    <!--<h2>Kişi Bilgi Formu</h2>-->
+    <table>
+        <tr>
+            <td>TC Kimlik No :</td>
+            <td><input type="text" name="txtId" placeholder="T.C. Kimlik No" required maxlength="11" class="csd"/></td>
+        </tr>
+
+    </table>
+    <p>
+        <input type="submit" value="Kaydet"/><input type="submit" value="Formu Temizle"/>
+    </p>
+</form>
+
+</body>
+</html>

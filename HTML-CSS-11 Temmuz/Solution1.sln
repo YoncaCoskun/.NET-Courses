@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11  Temmuz", "11  Temmuz", "{FDD2941D-A065-4B9C-B2CF-B02FFB6916CE}"
+	ProjectSection(SolutionItems) = preProject
+		BasitBilgiFormu.html = BasitBilgiFormu.html
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

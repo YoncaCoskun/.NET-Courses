@@ -1,0 +1,12 @@
+﻿/*External CSS*/
+td {
+    font-family: 'Courier New';
+    background-color: #00bfff;
+    font-weight: bold;
+}
+
+h1,h2,h3 {
+    font-family: Arial sans-serif;
+    color: #006400;
+    background-color: #00ff00;
+}
