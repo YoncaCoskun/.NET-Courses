@@ -1,0 +1,5 @@
+\\psf\home\documents\visual studio 2013\Projects\08082015_CSystem\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\08082015_CSystem\Utils\bin\Debug\Utils.dll
+\\psf\home\documents\visual studio 2013\Projects\08082015_CSystem\Utils\bin\Debug\Utils.pdb
+\\psf\home\documents\visual studio 2013\Projects\08082015_CSystem\Utils\obj\Debug\Utils.dll
+\\psf\home\documents\visual studio 2013\Projects\08082015_CSystem\Utils\obj\Debug\Utils.pdb

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<_08082015_CSystem.Models.UserInfo>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+<div>
+    <ul>
+        @foreach (var ui in Model)
+        {
+            <li>
+                @string.Format("{0}-{1}",ui.Name,ui.Role)
+            </li>
+        }
+    </ul>
+</div>
+</body>
+</html>

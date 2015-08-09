@@ -1,0 +1,32 @@
+﻿@model _08082015_CSystem.Models.UserInfo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("Create","Home",FormMethod.Post))
+    {
+
+        @Html.LabelFor(ui=>ui.Id)
+        @Html.TextBoxFor(ui=>ui.Id)
+        <br/>
+         @Html.LabelFor(ui=>ui.Name)
+        @Html.TextBoxFor(ui=>ui.Name)
+        <br/>
+         @Html.LabelFor(ui=>ui.Role)
+        @Html.TextBoxFor(ui=>ui.Role)
+        <br/>
+        <input type="submit" value="Ekle"/>
+        
+    }
+
+</body>
+</html>
